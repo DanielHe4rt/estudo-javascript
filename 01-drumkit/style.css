@@ -1,0 +1,28 @@
+body{
+    background-color: darkslateblue;
+}
+
+.container{
+    background-color: #c8c4dc;
+    border:1px solid black;
+    border-radius: 1em;
+    width:75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.clear{
+    padding: 100px;
+}
+
+button{
+    background-color: 	#3d598b;
+    border: 1px solid #483d8b;
+    margin-right:10px;
+    font-size: 20px;
+    padding: 10px;  
+}
+
+.clicked{
+    background-color: 	#6f3d8b;
+    border: 1px solid #6f3d8b;
+}
