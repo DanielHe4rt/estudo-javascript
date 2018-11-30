@@ -8,8 +8,6 @@ document.addEventListener('keydown',function(e){
     let action = button.querySelector('div').textContent.toLowerCase()
     console.log(`Botão: ${e.key} | Codigo: ${e.keyCode}`)
     let audio = new Audio(`sounds/${action}.wav`);
-
-    console.log(audio)
     audio.play();
 })
 

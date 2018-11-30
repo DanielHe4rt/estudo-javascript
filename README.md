@@ -8,5 +8,6 @@
 * 01 - JavaScript Drum Kit
     * Inicio: 28/11/2018 - 20:23
     * Término: 28/11/2018 - 21:40
-
-
+* 02 - Javascript Clock 
+    * Inicio: 29/11/2018 - 19:30
+    * Término: 29/11/2018 - 22:01
