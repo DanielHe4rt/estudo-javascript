@@ -1,0 +1,24 @@
+body{
+    background-color: saddlebrown;
+    font-family: 'Consolas';
+    text-align:center;
+}
+
+
+.wrapper{
+    left: 70vh;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid wheat;
+    position: absolute;
+}
+
+.col{
+    float: left;
+    width: 32%;
+}
+
+#image-box{
+    margin: 100;
+    float:left;
+}
