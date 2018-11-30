@@ -1,0 +1,61 @@
+body{
+    color: rgb(197, 197, 197);
+    font-family: 'Consolas';
+    background-image: url('https://wallpapertag.com/wallpaper/full/1/8/8/399373-vertical-black-background-image-3430x1933.jpg')
+}
+
+h1{
+    padding-top: 50px;
+    text-align:center;
+}
+
+.clock-wrapper{
+    padding-top: 10vh;
+    width: 25vw;
+    margin: 0 auto;
+}
+
+.clock{
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    background-color: rgba(197, 197, 197, 0.7)
+}
+
+.circle{
+    position: absolute;
+    top: 48.9%;
+    left: 50%;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.pointer{
+    top: 50%;
+    position: absolute;
+    background-color: black;
+    border: 2px solid black;
+    transform-origin: 100%;
+    height: 1px;
+    width:50%;
+}
+
+#time{
+    text-align:center;
+    font-size: 25px;
+}
+
+#hours{
+    transform: rotate(90deg);
+}
+
+#minutes{
+    transform: rotate(90deg);
+}
+
+#seconds{
+    background-color: red;
+    transform: rotate(150deg);
+}
