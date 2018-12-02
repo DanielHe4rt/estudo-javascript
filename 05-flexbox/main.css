@@ -1,0 +1,41 @@
+body{
+    background-color: darkgray;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45); 
+    font-size: 25px;
+    text-align:center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.box {
+    background-color: white;
+    flex-grow: 1;
+    height: 100vh;
+    transition: width 2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    display: block;
+}
+
+.content p:first-child{
+    margin-top: 15vh;
+}
+.content p:nth-child(2){
+    margin-top: 30vh;
+    word-spacing: 60vh;
+}
+.content p:nth-child(3){
+    margin-top: 30vh;
+}
+
+.hidden-content{
+    display: none;
+}
