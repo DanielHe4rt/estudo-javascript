@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    text-align:center;
+    color: #3e3;
+}
+.container{
+    width: 50vh;
+    margin: 0 auto;
+    border: 1px solid #3e3;
+    
+}
+
+input{
+    border: 1px solid #3e3;
+    background-color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-height: 100%;
+    color: #3e3;
+    width: 90%;
+    
+}
+
+
+
+.table{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table .cell{
+    width: 50%;
+    flex-grow: 1;
+}
+
+
+
